@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volun - main page</title>
+    <link rel="stylesheet" href="Cards/card.css">
+    <link rel="stylesheet" href="Cards/rating.css">
+    <link rel="stylesheet" href="Slider/slider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="header flex">
+        <div class="header__logo-wrapper text_center text_w">
+            <a href="index.html" class="logo__link link text logo">
+                <p class="logo__name text-size_m">Volun</p>
+                <p class="logo__description">Switzerland tours</p>
+            </a>
+        </div>
+        <div class="header__content-wrapper">
+            <div class="content__content-up flex text_center">
+                <div class="content-up__phone-links flex">
+                    <address class="header__support-link"><img src="img/phone.svg" class="green-svg" alt="call svg">
+                        <a class="header__address-link link text_w font_roboto" href="tel:+380673540175">+38 (067) 354 0175</a>
+                    </address>
+                    <address class="header__support-link"><img src="img/phone.svg" class="green-svg" alt="call svg">
+                        <a class="header__address-link link text_w font_roboto" href="tel:+410201234567">+41 (020) 123 4567</a>
+                    </address>
+                </div>
+                <div class="content-up_mail-link">
+                    <address class="header__support-link">
+                        <img src="img/mail.svg" class="green-svg" alt="mail svg">
+                        <a class="header__address-link link text_w font_roboto"
+                            href="mailto:volunst@gmail.com">volunst@gmail.com</a>
+                    </address>
+                </div>
+                <div class="content-up__social-links flex">
+                    <a href="https://web.telegram.org/k/#-1643549260" class="social-link" target="_blank"><img
+                            src="img/telegram.svg" alt="telegram" class="social-link__img"></a>
+                    <a href="https://www.instagram.com" class="social-link" target="_blank"><img
+                            src="img/instagram.svg" alt="instagram" class="social-link__img"></a>
+                    <a href="https://www.facebook.com" class="social-link" target="_blank"><img
+                            src="img/facebook.svg" alt="facebook" class="social-link__img facebook_img"></a>
+                    <a href="https://twitter.com" class="social-link" target="_blank"><img src="img/twitter.svg"
+                            alt="twitter" class="social-link__img"></a>
+                </div>
+            </div>
+            <div class="content__navigation">
+                <ul class="header-navigation__wrapper flex text_center text_b font_bebas">
+                    <li class="navigation-unit__wrapper"><a class="navigation-link cities">Cities</a></li>
+                    <li class="navigation-unit__wrapper"><a href="#" class="navigation-link link">Tours</a></li>
+                    <li class="navigation-unit__wrapper"><a href="#" class="navigation-link link ">Prices</a></li>
+                    <li class="navigation-unit__wrapper unit_b"><a href="#" class="navigation-link link">Travel
+                            information</a></li>
+                    <li class="navigation-unit__wrapper"><a href="#" class="navigation-link link">About</a></li>
+                    <li class="navigation-unit__wrapper unit_m"><a href="#" class="navigation-link link">Contacts
+                            us</a></li>
+                    <li class="navigation-unit__wrapper"><a class="navigation-link">English</a></li>
+                    <li class="navigation-unit__wrapper unit_s"><a class="navigation-link">Log in <img
+                                src="img/User-svg.svg" class="log-in__svg" alt="user svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slider-wrapper text_center">
+            <div class="image-wrapper text_w font_roboto text_thin">
+                <img src="#" class="image" alt="photo">
+                <div class="image__heading text-size_xl"></div>
+                <div class="image__text text-size_m"></div>
+                <a class="button-link link text_w"><button class="image__button text_thin text_center font_bebas text-size_l">see more</button></a>
+                <div class="image__circles">
+                    <button class="circle" id="1"></button>
+                    <button class="circle" id="2"></button>
+                    <button class="circle" id="3"></button>
+                    <button class="circle" id="4"></button>
+                </div>
+                <button class="moveArrow left-arrow">&lt</button>
+                <button class="moveArrow right-arrow">></button>
+            </div>
+        </div>
+    </div>
+    <div class="main-content text_center">
+        <span class="h1 font_roboto text_bold">Popular tours</span>
+        <div class="content__tour-cards">
+            <a href="#DayTripToInterlaken" class="card-wrapper">
+                <div class="card font_roboto text_thin" id="1">
+                    <img class="card__image" src="">
+                    <div class="card-content">
+                        <span class="card__type font_bebas text_g text-size_m"></span>
+                        <p class="card__article text_bold text_b text-size_s"></p>
+                        <span class="card__time text_g text-size_s"></span>
+                        <div class="card__rating">
+                            <div class="rating__body">
+                                <div class="rating__active">
+                                    <div class="rating__items">
+                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                </div>
+                                <span class="rating__value text_b text-size_s"></span>
+                                <span class="rating__reviews text_g text-size_s"></span>
+                            </div>
+                        </div>
+                        <p class="card__price text_b text_bold text-size_s"></p>
+                    </div>
+                </div>
+            </a>
+            <a href="#ExpressWalkOfLuganoWithALoca" class="card-wrapper">
+                <div class="card font_roboto text_thin" id="2">
+                    <img class="card__image" src="">
+                    <div class="card-content">
+                        <span class="card__type font_bebas text_g text-size_m"></span>
+                        <p class="card__article text_bold text_b text-size_s"></p>
+                        <span class="card__time text_g text-size_s"></span>
+                        <div class="card__rating">
+                            <div class="rating__body">
+                                <div class="rating__active">
+                                    <div class="rating__items">
+                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                </div>
+                                <span class="rating__value text_b text-size_s"></span>
+                                <span class="rating__reviews text_g text-size_s"></span>
+                            </div>
+                        </div>
+                        <p class="card__price text_b text_bold text-size_s"></p>
+                    </div>
+                </div>
+            </a>
+            <a href="#SwissRivieraTour" class="card-wrapper">
+                <div class="card font_roboto text_thin" id="3">
+                    <img class="card__image" src="">
+                    <div class="card-content">
+                        <span class="card__type font_bebas text_g text-size_m"></span>
+                        <p class="card__article text_bold text_b text-size_s"></p>
+                        <span class="card__time text_g text-size_s"></span>
+                        <div class="card__rating">
+                            <div class="rating__body">
+                                <div class="rating__active">
+                                    <div class="rating__items">
+                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                </div>
+                                <span class="rating__value text_b text-size_s"></span>
+                                <span class="rating__reviews text_g text-size_s"></span>
+                            </div>
+                        </div>
+                        <p class="card__price text_b text_bold text-size_s"></p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <span><a href="#All_tours" class="content-link font_roboto text_bold">More tours</a></span>
+        <span class="cities__h1 h1 text_bold font_roboto">Find tours in your city</span>
+        <div class="content__cities content">
+            <div class="cities__table text_w font_roboto text_bold">
+                <div class="table__element text-size_s">
+                    <a href="#Geneva">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Davos">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Interlaken">
+                        <div class="element__background ">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Bern">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Lugano">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Lausanne">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Montreux">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Lucerne">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="table__element text-size_s">
+                    <a href="#Zurich">
+                        <div class="element__background">
+                            <span class="element__heading">Geneva</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content__support">
+        <div class="support__wrapper flex content font_roboto text_w text_thin">
+            <div class="support__info">
+                <span class="info__heading text-size_l text_bold">Support</span>
+                <p class="info__text text-size_m">If you need help or advice, you can always leave us
+                    a message</p>
+                <div class="info__call-numbers text-size_s">
+                    <a class="ukr-callNumber call-number" href="tel:+380673540175">+38 (067) 354 0175</a>
+                    <a class="cz-callNumber call-number" href="tel:+410201234567">+41 (020) 123 4567</a>
+                </div>
+                <nav class="info__mail text-size_s"><a href="mailto:volunst@gmail.com">volunst@gmail.com</a></nav>
+            </div>
+            <div class="support__elements">
+                <div class="fields__wrapper">
+                    <input type="text" placeholder="Enter your name" class="fields__name-field field text_g text-size_s">
+                    <input type="text" placeholder="Enter a valid email address" class="fields__mail-field field text_g text-size_s">
+                    <textarea name="text" class="fields__message-field field text-size_s" placeholder="Type your message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="fields__button font_bebas text-size_m">Submit</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer text_w font_roboto text_thin">
+        <div class="footer__wrapper content">
+            <div class="footer-up flex">
+                <div class="footer__description">
+                    <span class="description__company-name text-size_l">Volun</span>
+                    <p class="description__text text-size_xs">Volun is a travel company that specialized on tours</p>
+                </div>
+                <div class="footer__company row" >
+                    <h1 class="list-heading text_bold">Company</h1>
+                    <ul class="text-size_xs">
+                        <li class="list-item">About us</li>
+                        <li class="list-item">tel.: +38 (067) 354 0175</li>
+                        <li class="list-item">tel.: +41 (020) 123 4567</li>
+                        <li class="list-item">e-mail: volunst@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer__support row">
+                    <h1 class="list-heading text_bold">Support</h1>
+                    <ul class="text-size_xs">
+                        <li class="list-item">Contact</li>
+                        <li class="list-item">Privacy Policy</li>
+                        <li class="list-item">Cookies and Marketing Preferences</li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe row ">
+                    <h1 class="list-heading text_bold">Subscribe</h1>
+                    <input type="text" class="field subscribe__field text-size_xs" placeholder="Enter your mail">
+                    <button class="fields__button fields__button_s text-size_xs">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer__border"></div>
+            <div class="footer-down">
+                <ul class="down-list flex text-size_xs">
+                    <li class="list-item1">Privacy Policy</li>
+                    <li class="list-item1">Terms of Use</li>
+                    <li class="list-item1">Sales and Refunds</li>
+                    <li class="list-item1">Legal</li>
+                    <li class="list-item1">Site Map</li>
+                </ul>
+                <nav class="copy-right text-size_xs">© 2023 (FAKE) All Rights Reserved</nav>
+            </div>
+        </div>
+        
+    </footer>
+        <script src="Cards/card.js"></script>
+        <script src="Slider/slider.js"></script>
+        <script src="js/cities.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>

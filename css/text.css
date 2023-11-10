@@ -1,0 +1,48 @@
+.text_b{
+    color: black;
+}
+.text_w{
+    color: white;
+}
+.text_g{
+    color: gray;
+}
+.text_thin{
+    font-weight: 400;
+}
+.text_bold{
+    font-weight: 700;
+}
+.button{
+    background: none;
+}
+.font_roboto{
+    font-family: 'Roboto';
+}
+.font_bebas{
+    font-family: 'Bebas Neue';
+}
+.flex{
+    display: flex;
+}
+.text_center{
+    text-align: center;
+    align-items: center;
+}
+
+
+.text-size_xs{
+    font-size: 12px;
+}
+.text-size_s{
+    font-size: 20px;
+}
+.text-size_m{
+    font-size: 28px;
+}
+.text-size_l{
+    font-size: 40px;
+}
+.text-size_xl{
+    font-size: 64px;
+}
